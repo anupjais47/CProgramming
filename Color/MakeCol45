@@ -1,0 +1,4 @@
+./Col45.exe : Col45.o 
+	gcc Col45.o -o Col45.exe
+Col45.o : Col45.c
+	gcc -c Col45.c

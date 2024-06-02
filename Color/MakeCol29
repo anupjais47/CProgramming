@@ -1,0 +1,4 @@
+./Col29.exe : Col29.o 
+	gcc Col29.o -o Col29.exe
+Col29.o : Col29.c
+	gcc -c Col29.c

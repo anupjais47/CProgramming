@@ -1,0 +1,4 @@
+./Col42.exe : Col42.o 
+	gcc Col42.o -o Col42.exe
+Col42.o : Col42.c
+	gcc -c Col42.c

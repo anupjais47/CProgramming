@@ -1,0 +1,4 @@
+./Col1.exe : Col1.o 
+	gcc Col1.o -o Col1.exe
+Col1.o : Col1.c
+	gcc -c Col1.c

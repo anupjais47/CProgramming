@@ -1,0 +1,4 @@
+./ReadOnlyInt.exe : ReadOnlyInt.o
+	gcc ReadOnlyInt.o -o ReadOnlyInt.exe
+ReadOnlyInt.o : ReadOnlyInt.c
+	gcc -c ReadOnlyInt.c

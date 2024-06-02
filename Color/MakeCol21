@@ -1,0 +1,4 @@
+./Col21.exe : Col21.o 
+	gcc Col21.o -o Col21.exe
+Col21.o : Col21.c
+	gcc -c Col21.c
